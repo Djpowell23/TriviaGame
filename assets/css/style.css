@@ -1,0 +1,55 @@
+body { 
+    background-image: url("../images/hogwarts-background.jpg");
+    color: white;
+}
+
+button {
+    height: 35px;
+    margin: 8px 0px 0px 0px;
+    width: 250px;
+}
+
+h1, h3, p, body {
+    font-family: 'VT323', monospace;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.answers {
+    border: 2px solid black;
+    font-size: 28px;
+    height: 200px;
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(100, 102, 103, .9);
+    width: 70vw;
+    height: 600px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.spacers {
+    border: 2px solid black;
+    font-family: 'VT323', monospace;
+    height: 100px;
+    text-align: center;
+}
+
+.question {
+    font-size: 36px;
+    padding-top: 23px;
+}
+
+
+
