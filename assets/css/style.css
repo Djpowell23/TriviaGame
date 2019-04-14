@@ -39,13 +39,6 @@ h3 {
     padding: 20px;
 }
 
-.spacers {
-    border: 2px solid black;
-    font-family: 'VT323', monospace;
-    height: 100px;
-    text-align: center;
-}
-
 .question {
     font-size: 36px;
     padding-top: 23px;

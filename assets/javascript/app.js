@@ -88,8 +88,8 @@ $(document).ready(function() {
                         answers.push('<input type="radio" name="question' + i + '" value="'+ letter +'">' + questions[i].answers[letter] + '</label>');
                     };
                     // Output Displayed to HTML
-                    output.push('<div class="question">' + questions[i].question + '</div>' + '<div class="answers">' + answers.join('') + '</div>');
-                    quizContainer.innerHTML = output.join('<br>');
+                    output.push('<div class="question">' + questions[i].question + '</div>' + '<div class="answers">' + answers.join('<br>') + '</div>');
+                    quizContainer.innerHTML = output.join('');
 
                     // When an Answer is Selected
                     $('#quiz').off().on('click', "input", function() {
